@@ -160,18 +160,20 @@ span{
   border:solid white 2px;
   font-size:160%
 }
-#projects{
-  position: relative;
-  height: 900px;
+#one-page{
+  position:absolute;
+  height: auto;
   width:100%;
   background-color:white;
+}
+#projects{
   color:black;
   text-align:center;
   padding-top:10px;
 }
 .work-row {
-    margin: 5px 15px 60px 15px;
-    padding-bottom:50px;
+    margin:10px;
+    margin-bottom:40px;
     line-height: 130%;
     font-size:18px;
     text-align: center;
@@ -184,21 +186,12 @@ span{
   text-shadow: 1px 2px lightgrey;
   font-size:40px;
 }
-
 .work-img{
   height:200px;
-  max-width:280px;
+  max-width:245px;
 }
 .work-img:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-#contact{
-  position: relative;
-  height: 600px;
-  width: 100%;
-  top:-20px;
-  background-color:white;
-  padding-bottom:20px;
 }
 #contact > h1{
   text-align: center;
@@ -221,6 +214,7 @@ span{
   border-color:#52b2b5;
   border-radius: 10px;
   margin-top:15px;
+  margin-bottom:30px;
 } 
 .button:hover{
   background-color: #52b2b5;
