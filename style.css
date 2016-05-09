@@ -161,8 +161,10 @@ span{
   font-size:160%
 }
 #projects{
-  background-color:white;
+  position: relative;
+  height: 900px;
   width:100%;
+  background-color:white;
   color:black;
   text-align:center;
   padding-top:10px;
@@ -191,9 +193,10 @@ span{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #contact{
-  position:absolute;
+  position: relative;
+  height: 600px;
   width: 100%;
-  height: auto;
+  top:-20px;
   background-color:white;
   padding-bottom:20px;
 }
