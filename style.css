@@ -172,11 +172,11 @@ span{
   padding-top:10px;
 }
 .work-row {
-    margin:10px;
-    margin-bottom:40px;
-    line-height: 130%;
-    font-size:18px;
-    text-align: center;
+ margin:10px;
+ margin-bottom:40px;
+ line-height: 130%;
+ font-size:18px;
+ text-align: center;
 }
 .work-row > h3{
   text-shadow: 1px 2px lightgrey;
@@ -205,7 +205,7 @@ span{
   background-color:#f2f2f2;
   border-radius: 7px;
 }
-.button{
+.send-btn{
   height:50px;
   width:90px;
   font-size:20px !important; 
@@ -216,7 +216,7 @@ span{
   margin-top:15px;
   margin-bottom:30px;
 } 
-.button:hover{
+.send-btn:hover{
   background-color: #52b2b5;
 }
 
@@ -227,6 +227,7 @@ span{
   border-radius: 10px;
 }
 .about{
+  text-align: center;
   line-height: 110%;
   text-shadow: 1px 2px lightgrey;
   font-size:25px;
