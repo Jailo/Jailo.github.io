@@ -171,14 +171,10 @@ span{
   text-align:center;
   padding-top:10px;
 }
-.work-row {
- margin:10px;
- margin-bottom:40px;
- line-height: 130%;
- font-size:18px;
- text-align: center;
+#my-work{
+  line-height:20px
 }
-.work-row > h3{
+#my-work h3{
   text-shadow: 1px 2px lightgrey;
 }
 #projects > h1{
