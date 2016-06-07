@@ -28,6 +28,7 @@ html,
 body {
   height: 100%;
   background-color: #333;
+  width:100%;
 }
 #home{
   color: #fff;
@@ -189,6 +190,7 @@ span{
 .work-img:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 #contact > h1{
   text-align: center;
   padding:50px 0px 50px 0px;
@@ -219,22 +221,24 @@ span{
 .photo{
   display:block;
   margin:auto;
-  height: 200px;
-  border-radius: 10px;
+  height: 185px;
 }
 .about{
   text-align: center;
-  line-height: 110%;
-  text-shadow: 1px 2px lightgrey;
-  font-size:25px;
+  line-height: 100%;
+  font-size:23px;
+  color:black;
+}
+.about > a{
+  color: #367b7d;
+  text-decoration:none;
 }
 .social-btn{
-  margin:20px auto 20px auto ;
-  text-align: center;
+  text-align:center;
 }
 .btn-social-icon{
-  height: 38px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   border-radius:50%;
 }
 .navbar{
