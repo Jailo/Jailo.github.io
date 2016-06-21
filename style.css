@@ -31,11 +31,16 @@ body {
   width:100%;
 }
 #home{
-  color:#a6a6a6;
+  color:white;
   text-align: center;
   text-shadow: 0px 2px black;
-  background:url("https://static.pexels.com/photos/6064/coffee-laptop-notebook-working-large.jpg") no-repeat;
-  background-size:cover;
+  background-image: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+    ),
+  url("https://static.pexels.com/photos/6064/coffee-laptop-notebook-working-large.jpg");
+  background-size:100% 100%;
 }
 #home p{
   font-size: 28px;
@@ -64,16 +69,13 @@ body {
   padding: 30px;
 }
 
-span{
-  font-family:'Lobster', cursive;
-}
-
 /*
  * Header
  */
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
+  color:#ffffff;
 }
 
 .masthead-nav > li {
@@ -169,25 +171,30 @@ span{
   width:100%;
   background-color:white;
 }
-#projects{
+#portfolio{
   color:black;
   text-align:center;
   padding-top:10px;
 }
-#my-work{
+#my-work p{
   line-height:20px
+  text-align:justify;
 }
 #my-work h3{
   text-shadow: 1px 2px lightgrey;
 }
-#projects > h1{
-  padding:20px;
+#portfolio h1{
   text-shadow: 1px 2px lightgrey;
-  font-size:40px;
 }
+.project-headers{
+  margin-bottom:60px;
+  padding-top:20px;
+  font-weight:bold;
+}
+
 .work-img{
-  height:200px;
-  max-width:245px;
+  height:300px;
+  max-width:260px;
 }
 .work-img:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -199,7 +206,10 @@ span{
   text-shadow: 1px 2px lightgrey;
   color:#367b7d;
 }
-
+#contact h5{
+  padding-bottom:7px;
+  padding-top: 20px;
+}
 #message, #email, #name{
   padding:10px;
   background-color:#f2f2f2;
@@ -219,17 +229,15 @@ span{
 .send-btn:hover{
   background-color: #52b2b5;
 }
-
 .photo{
   display:block;
   margin:auto;
   height: 180px;
-
 }
 .about{
   text-align: center;
   line-height: 100%;
-  font-size:23px;
+  font-size:20px;
   color:black;
 }
 .about > a{
@@ -247,11 +255,15 @@ span{
 .navbar{
   position: absolute;
   bottom: -50px;
+  height: 50px;
 }
 .navbar-text > a{
   text-decoration: none;
 }
-.navbar-text:hover{
+.navbar-text a:hover{
   border-bottom: solid white 2px;
   text-decoration: none;
+}
+.navbar-text span{
+  text-align:right;
 }
