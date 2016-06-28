@@ -255,7 +255,7 @@ body {
 .navbar{
   position: absolute;
   bottom: -50px;
-  height: 50px;
+  height: 40px;
 }
 .navbar-text > a{
   text-decoration: none;
