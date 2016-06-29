@@ -248,6 +248,8 @@ body {
 }
 .social-btn{
   text-align:center;
+  margin-bottom:25px;
+  margin-top:10px;
 }
 .btn-social-icon{
   height: 35px;
